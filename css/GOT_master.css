@@ -51,7 +51,7 @@ main {
 /* ----- end default styles ----- */
 
 /* ----- image sprite ----- */
-.sigilContainer {
+.sigil-container {
 	width:51px;
 	height:54px;
 	display:inline-block;
