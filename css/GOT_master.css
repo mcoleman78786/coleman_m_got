@@ -96,7 +96,9 @@ main {
 	transform:scale(1.2, 1.2);
 }
 
-.lightbox {
+/* add styles here for lightbox and video */
+.lightBox
+{
 	position: absolute;
 	top: 0;
 	height: 100%;
@@ -106,8 +108,10 @@ main {
 	display: none;
 }
 
-.show-lightbox { display: block; }
-
+.show-lightBox
+{
+	display: block;
+}
 
 video {
 	width: 80%;
