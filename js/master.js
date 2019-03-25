@@ -5,7 +5,8 @@
 	//grab the shields at bottom of page
 	const 	shields 	= document.querySelectorAll('.sigil-container'),
 			lightBox 	= document.querySelector('.lightbox'),
-			video = document.querySelector('video');
+			video    = document.querySelector('video');
+			closeLB 
 
 	function showLightbox() {
 		lightBox.classList.add('show-lightbox');
