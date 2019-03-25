@@ -28,6 +28,10 @@ main {
 	top:30px;
 }
 
+p {
+	color: white;
+}
+
 #imageContainer {
 	width:600px;
 	height:360px;
