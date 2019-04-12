@@ -1,21 +1,20 @@
 (() => {
-	console.log('fired');
+	// stub
+	console.log('fired!');
 
-	//  variable stack
-	// grab the shields at the bttom of the pge
-	const 	shields 	= document.querySelectorAll('.sigil-container'),
-			lightBox	= document.querySelector('.lightBox'),
-			video = document.querySelector('video');
+	const 	sigils 		= document.querySelectorAll('.sigil-container'),
+			lightbox 	= document.querySelector('.lightbox'),
+			video		= document.querySelector('video');
 
-	function showLightbox() {
-		lightBox.classList.add('show-lightBox');
+	function openLightbox() {
+		lightbox.classList.add('lightbox-on');
 	}
 
-	function hideLightbox() {
-		lightBox.classList.remove('show-lightBox');
+	function closeLightbox() {
+		lightbox.classList.remove('lightbox-on');
 	}
 
-	shields.forEach(shield => shield.addEventListener('click', showLightbox));
+	sigils.forEach(sigil => sigil.addEventListener('click', openLightbox));
 
-	video.addEventListener('ended', hideLightbox);
+	video.addEventListener('ended', closeLightbox);
 })();

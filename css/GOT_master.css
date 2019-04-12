@@ -97,21 +97,20 @@ main {
 }
 
 /* add styles here for lightbox and video */
-.lightBox
-{
+.lightbox {
 	position: absolute;
-	top: 0;
-	height: 100%;
-	width: 100%;
 	text-align: center;
-	background: rgba(0,0,0,1);
+	width: 100%;
+	top: 0;
+	background-color: rgba(0, 0, 0, 0.9);
+	height: 100%;
 	display: none;
 }
 
-.show-lightBox
-{
+.lightbox-on {
 	display: block;
 }
+
 
 video {
 	width: 80%;
